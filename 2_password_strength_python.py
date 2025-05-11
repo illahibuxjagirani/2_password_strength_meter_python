@@ -24,7 +24,7 @@ value = 5
 
 password = st.text_input("Enter Password to Check the Strength:", placeholder="Enter Your Password here")
 
-st.markdown(f"<p style='text-align: right;'><span>Length: &nbsp; {len(password)}</p>", unsafe_allow_html=True)
+st.markdown(f"<p style='text-align: right; color: black'><span>Length: &nbsp; {len(password)}</p>", unsafe_allow_html=True)
 
 
 def check_password_strength(password):
@@ -107,14 +107,18 @@ def check_password_strength(password):
 
     st.markdown(f"<h5 style='background: {bcolor}; color: {color}; margin-bottom: 10px; text-align: center; border-radius: 10px'>{position}</h5>", unsafe_allow_html=True)
     
+    
+    
 
     if st.button("Check Password's Strength", use_container_width=True):
         if score == 1:
-            st.write("Your Password's strength is very Weak, try Strong password and check again")
+            st.markdown(f"<p style='background: {bcolor}; color: {color}; margin-bottom: 10px; text-align: center; border-radius: 10px'>Your Password's strength is very Weak, try Strong password and check again</p>", unsafe_allow_html=True)
+            
         elif score == 2:
-            st.write("Your Password's strength is Weak try Strong password and check again")
+            st.markdown(f"<p style='background: {bcolor}; color: {color}; margin-bottom: 10px; text-align: center; border-radius: 10px'>Your Password's strength is Weak try Strong password and check again</p>", unsafe_allow_html=True)
+            
         if score == 3:
-            st.write("Your Password's strength is Good but i recommend try more Strong password and check again")
+            st.markdown(f"<p style='background: {bcolor}; color: {color}; margin-bottom: 10px; text-align: center; border-radius: 10px'>Your Password's strength is Good but i recommend try more Strong password and check again</p>", unsafe_allow_html=True)
     
     if st.button("Save Password", use_container_width=True):
         if score >= 4:
@@ -122,7 +126,7 @@ def check_password_strength(password):
             time.sleep(1)
             st.markdown(f"<p style='background: green; color: white;  text-align: center; border-radius: 50px'>Password Successfully Saved ✅</p>", unsafe_allow_html=True)
         else:
-            st.write("Your Password is Weak try Strong password and Save it")
+            st.markdown(f"<p style='background: {bcolor}; color: {color}; margin-bottom: 10px; text-align: center; border-radius: 10px'>Your Password is Weak try Strong password and Save i</p>", unsafe_allow_html=True)
             
             
     
