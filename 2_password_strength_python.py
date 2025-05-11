@@ -108,7 +108,7 @@ def check_password_strength(password):
     st.markdown(f"<h5 style='background: {bcolor}; color: {color}; margin-bottom: 10px; text-align: center; border-radius: 10px'>{position}</h5>", unsafe_allow_html=True)
     
 
-    if st.button("Check Password Strength", use_container_width=True):
+    if st.button("Check Password's Strength", use_container_width=True):
         if score == 1:
             st.write("Your Password's strength is very Weak, try Strong password and check again")
         elif score == 2:

@@ -36,5 +36,13 @@ Custom Scoring Weights: Give different weights to complexity factors.
 💡 Challenge yourself to build a better, more secure password checker! 🚀
 
 Once you are done submit this form ASAP:
-
 https://forms.gle/tS7C3sr55tUZ36GY8
+
+
+
+
+Github Link:
+
+
+Deployment Link:
+
