@@ -42,14 +42,14 @@ def check_password_strength(password):
         score += 1  
     
     with col2:
-        st.markdown(f"<span style='font-size: 15px;'><strong >{lower_icon} Lower Case</strong></span>", unsafe_allow_html=True)   
+        st.markdown(f"<span style='font-size: 15px; color: black;'><strong >{lower_icon} Lower Case</strong></span>", unsafe_allow_html=True)   
     
     if re.search(r"[A-Z]", password):
         score += 1
         upper_icon = "✅"
         
     with col3:
-        st.markdown(f"<span style='font-size: 15px;'><strong >{upper_icon} Upper Case</strong></span>", unsafe_allow_html=True)  
+        st.markdown(f"<span style='font-size: 15px; color: black;'><strong >{upper_icon} Upper Case</strong></span>", unsafe_allow_html=True)  
                
     
     # Digit Check
@@ -58,7 +58,7 @@ def check_password_strength(password):
         digit_icon = "✅"
         
     with col4:
-        st.markdown(f"<span style='font-size: 15px;'><strong >{digit_icon} Digits</strong></span>", unsafe_allow_html=True) 
+        st.markdown(f"<span style='font-size: 15px;color: black;'><strong >{digit_icon} Digits</strong></span>", unsafe_allow_html=True) 
         
         
     # Special Character Check
@@ -67,7 +67,7 @@ def check_password_strength(password):
         special_icon = "✅"
 
     with col5:
-        st.markdown(f"<span style='font-size: 13px;'><strong >{special_icon} Special Characters </strong></span>", unsafe_allow_html=True) 
+        st.markdown(f"<span style='font-size: 13px; color: black;'><strong >{special_icon} Special Characters </strong></span>", unsafe_allow_html=True) 
     
     
     if len(password) >= 8:
@@ -75,7 +75,7 @@ def check_password_strength(password):
         length_icon = "✅" 
         
     with col1:
-       st.markdown(f"<span style='font-size: 15px;'><strong >{length_icon} length </strong></span>", unsafe_allow_html=True) 
+       st.markdown(f"<span style='font-size: 15px; color: black;'><strong >{length_icon} length </strong></span>", unsafe_allow_html=True) 
            
     position = ""
     bcolor = "gray"
