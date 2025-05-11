@@ -15,9 +15,9 @@ st.markdown("""
 
 st.markdown("<h1 style='text-align: center; color: blue;'>Password Strength Meter</h1>", unsafe_allow_html=True)
 
-st.markdown("<p style='text-align: center;'> <span style='background: red; padding: 5px; color: white; '>Very Weak </span> &nbsp; | &nbsp; <span style=' background: pink; padding: 5px; '>Weak </span> &nbsp; | &nbsp; <span style='padding: 5px; background: yellow;'>Good </span> &nbsp; | &nbsp; <span style='background: lightgreen; padding: 5px; '>Strong </span> &nbsp; | &nbsp; <span style='padding: 5px;color: white; background: green;'>Very Strong </span></p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'> <span style='background: red; padding: 5px; color: white; '>Very Weak </span> &nbsp; | &nbsp; <span style=' background: pink; padding: 5px; color: black;'>Weak </span> &nbsp; | &nbsp; <span style='padding: 5px; background: yellow; color: black'>Good </span> &nbsp; | &nbsp; <span style='background: lightgreen; padding: 5px; color: black'>Strong </span> &nbsp; | &nbsp; <span style='padding: 5px;color: white; background: green;'>Very Strong </span></p>", unsafe_allow_html=True)
 
-st.markdown("<p style='text-align: right; font-size: 12px'><strong>ILLAHI BUX (Roll No.249403)</strong></p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: right; font-size: 12px; color: black'><strong>ILLAHI BUX (Roll No.249403)</strong></p>", unsafe_allow_html=True)
 
 # st.markdown("<h5>Enter Password to Check the Strength</h5>", unsafe_allow_html=True)
 value = 5
