@@ -41,8 +41,8 @@ https://forms.gle/tS7C3sr55tUZ36GY8
 
 
 
-Github Link:
+Github Link: https://github.com/illahibuxjagirani/2_password_strength_meter_python.git
 
 
-Deployment Link:
+Deployment Link: https://illahibuxjagirani-2-password--2-password-strength-python-gh4irk.streamlit.app/
 
