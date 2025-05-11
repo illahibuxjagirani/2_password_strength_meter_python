@@ -20,7 +20,7 @@ st.markdown("<p style='text-align: center; color: white; font-weight: semibold'>
 st.markdown("<p style='text-align: right; font-size: 12px; color: black'><strong>ILLAHI BUX (Roll No.249403)</strong></p>", unsafe_allow_html=True)
 
 
-password = st.text_input(f"Enter Password to Check the Strength", placeholder="Enter Your Password here")
+password = st.text_input(f"Enter Password to Check the Strength", placeholder="Enter Your Password here", type="password")
 
 st.markdown(f"<p style='text-align: right; color: black'><span>Length: &nbsp; {len(password)}</p>", unsafe_allow_html=True)
 
